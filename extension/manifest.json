@@ -1,0 +1,10 @@
+{
+  "name": "Iota",
+  "version": "1.0.0",
+  "manifest_version": 3,
+  "description":"A web application to track dark patterns on e-commerce sites.",
+  "action": {
+    "default_popup": "popup/popup.html",
+    "default_icon":"images/icon.png"
+  }
+}

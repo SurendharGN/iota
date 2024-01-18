@@ -1,6 +1,4 @@
 import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
 import './App.css';
 import { Link } from 'react-router-dom';
 
@@ -13,16 +11,21 @@ function App() {
         <div id='links'>
           <Link to='/downloadExtension'>Download extension </Link>
           <span>|</span>
-          <Link> Documentation  </Link>
+          <Link> Documentation </Link>
           <span>|</span>
-          <Link> Github</Link>
+          <Link> Curated modal</Link>
 
         </div>
         
       </header>
       <main id='desc'>
-        <span id="separator"></span>
-        <p>An application to detect, the use, type, and scale of dark patterns on e-commerce platforms.
+        <div id='enterURL'>
+          <Link to='/token'>Enter URL <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"><path d="M7 7h8.586L5.293 17.293l1.414 1.414L17 8.414V17h2V5H7v2z"/></svg></Link>
+        </div>
+        
+        
+        <p className='desc-para'>
+          <span id="separator"></span>An application to detect, the use, type, and scale of dark patterns on e-commerce platforms.
           <span >
             It includes patterns such as
         User Interface Deception,Subscription Trickery,
