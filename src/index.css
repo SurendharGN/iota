@@ -31,7 +31,7 @@ header{
 a {
   text-decoration: none;
   color:#1a1a1a;
-  font-size: 1.2em;
+  font-size: 1.1em;
 }
 
 #links{
@@ -39,6 +39,10 @@ a {
   gap:4px;
   align-items: center;
   
+}
+#curated-findings-span{
+  font-weight:normal;
+
 }
 
 a:hover{
@@ -53,18 +57,18 @@ body {
   height:1px;
   background-color: #1a1a1a;
 }
-main{
+#desc{
   position: absolute;
   display: flex;
-  top:56%;
-  left:43%;
+  top:60%;
+  left:47%;
   flex-direction: column;
   align-items: flex-start;
   
 
 }
 
-h1 {
+#title{
   font-size: 10em;
   font-weight:bolder;
   line-height: 1.1;
@@ -75,10 +79,20 @@ span{
   display: block;
 }
 
-p {
-
-  font-size:1.5em;
+#curated-findings-desc{
+  font-size:1.2em;
   font-weight: bold;
+
+}
+
+#curated-findings-main{
+  top:0%;
+  left:0%
+
+}
+
+.desc-para {
+  font-size:1.3em;
   width:34em;
   text-align: left;
   padding-right: 32px;
